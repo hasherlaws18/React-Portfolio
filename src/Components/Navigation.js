@@ -1,11 +1,11 @@
 import React from "react";
 
-function Header() {
+function Navigation() {
     return (
         <header>
             <h1>My portfolio</h1>
             <nav>
-                <ul style={{display: 'flex', justifyContent: 'flex-end'}}>
+                <ul>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">portfolio</a></li>
@@ -16,4 +16,4 @@ function Header() {
     );
 }
 
-export default Header;
+export default Navigation;
