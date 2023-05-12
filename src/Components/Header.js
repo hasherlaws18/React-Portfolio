@@ -5,7 +5,7 @@ function Header() {
         <header>
             <h1>My portfolio</h1>
             <nav>
-                <ul style={{display: 'flex', justifyContent: 'flex-end'}}>
+                <ul>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">portfolio</a></li>

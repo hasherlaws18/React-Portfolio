@@ -1,11 +1,20 @@
 header{
-padding: 25px 40px;
+justify-content: space-between;
+align-items: center;
 background-color: red;
 display: flex;
 }
 
-header h1 {
-  margin: 2;
-  font-size: 50px;
+nav ul {
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+nav li a {
+  color: aqua;
+  margin:  100px;
+  font-size: 20px;
 }
 
